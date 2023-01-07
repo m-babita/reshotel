@@ -20,12 +20,12 @@ function Topbar() {
       <div className=" flex items-center font-semibold justify-around py-1 ">
         <div className="p-3 z-50 md:w-auto w-full flex flex-row justify-between items-center overflow-hidden">
         
-        <h1 class="font-bold  text-2xl">
+        <h1 class="font-bold  md:text-2xl">
           Reserve Hotel
         </h1>
         </div>
               
-          <div className="text-sm">
+          <div className="md:text-sm text-xs">
           Need Help? Call: 12345678
           </div>
 

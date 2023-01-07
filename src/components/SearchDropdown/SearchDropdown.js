@@ -30,7 +30,7 @@ function InputWithSearch() {
           
           </label>
         </div>
-        <div className="my-5 rounded md:rounded-none bg-white">
+        <div className="my-5 pl-4 rounded md:rounded-none bg-white">
         <label class="relative text-gray-400 focus-within:text-gray-600 block">
           <ion-icon name="calendar-outline"></ion-icon>
           <input className=" h-16 py-2 pl-2 "
@@ -46,10 +46,10 @@ function InputWithSearch() {
           </datalist>
           </label>
         </div>
-        <div className="my-5 rounded md:rounded-none bg-white">
+        <div className="my-5 pl-4 rounded md:rounded-none  bg-white">
         <label class="relative text-gray-400 focus-within:text-gray-600 block">
           
-          <input className="pl-2 h-16 py-2 "
+          <input className=" h-16 py-2 pl-2 "
             list="type"
             onChange={(e) => setVal(e.target.value)}
             placeholder="adults children rooms"

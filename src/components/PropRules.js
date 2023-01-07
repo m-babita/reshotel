@@ -2,12 +2,12 @@ import React from 'react'
 
 function PropRules() {
   return (
-    <div className='justify-center p-6 m-6 '>
+    <div className='justify-center md:p-6 md:m-6 '>
         <div className="font-bold text-lg pb-2">
             Property Rules
         </div>
         Check-in: 12PM Check-out: 12 AM
-        <div className=" grid grid-cols-2">
+        <div className=" grid md:grid-cols-2">
         <ul className="my-2">
             <li>- Smoking in hotel rooms, corridor, staircase is prohibited</li>
             <li>- If no instructions are left, belongings will be stored by the hotel for 3 months.</li>
